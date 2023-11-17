@@ -1,0 +1,203 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.navbar {
+    background-color: #198754;;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #198754;
+}
+
+.navbar-brand { 
+    font-family: 'Libre Baskerville', serif;
+    font-size: 26px;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover  {
+    color: #fff;
+}
+
+h1.titulo-font {
+    color: #fff;
+}
+
+h1>strong {
+    font-size: 28px;
+}
+
+h1.titulo-font {
+    font-size: 14px;
+}
+
+.titulo-font {  
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    color:  #198754;
+}
+
+.botaoSrv {
+    margin-bottom: 5px;
+}
+
+.font-color, h6 {
+    color: #198754;
+}
+
+.font-color-bt {
+    color: #fff;
+    text-decoration: none;
+}
+
+.font-color-bt:hover {
+    color: #ffea00;
+
+}
+
+.font-color-black {
+    color:  #198754;
+}
+
+.font-color-green {
+    color:  #198754;
+}
+
+.navbar-toggler{
+    background-color: #bbfff1;
+}
+
+#sobre,
+#contato  {
+    background-color: #bbfff1;
+}
+
+#parceiros {  /* section inteira no HTML */
+    display: none;
+}
+
+.nav-parceiros .nav-link.active,
+#contato button {
+    background-color: #198754;
+    color: #fff;
+}
+
+.rodape {
+    color: #fff;
+    padding: 12px;
+}
+
+.no-form{
+    display: none;
+}
+
+.nav-parceiros .nav-link:hover {
+    color: #198754;
+}
+
+.height-slide {
+    height: 650px;
+}
+
+.redessociais li {
+    list-style: none;
+    display: block;
+}
+
+.redessociais a {
+    text-decoration: none;
+}
+
+.col-md-3 img {
+    height: 165px;
+    width: 165px;
+}
+
+.carousel-item > img {
+    height: 405px;
+}
+
+.imgSrv {
+    height: 45%;
+}
+
+.divSrv {
+    height: 610px;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 220px;
+    }
+    .botaoSrv {
+        margin-bottom: 45px;
+    }
+
+    h1.titulo-font {
+        font-size: 20px;
+    }
+
+    h2.titulo-font {
+        font-size: 20px;
+        
+    }
+
+    h1>strong {
+        font-size: 28px;
+    }
+    
+    h1.titulo-font {
+        font-size: 14px;
+    }
+
+    .imgSrv {
+        height: 40%;    
+    }  
+
+    .divSrv {
+        height: 450px;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;    
+    }
+
+    .divSrv {
+        height: 650px;
+    }
+
+    .col-md-3 > img {
+        padding-top: 15px;
+    }
+
+    .imgSrv {
+        height: 140px;    
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .col-md-3 {
+    flex: 0 0 auto;
+    width: 100%;
+    }
+
+    .col-md-3 > img {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .titulo-font {
+        font-size: 10px;
+    }
+    
+}
